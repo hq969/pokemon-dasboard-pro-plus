@@ -111,8 +111,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/73347f69-a6b9-4eeb-903e-9f13d98d3191/deploy-status)](https://pokedexplus.netlify.app/)
 <br>
-## Presentation video 
-[![Video Link](https://img.shields.io/badge/Video-Click%20Here-red)](https://www.loom.com/share/f1600b6b074c4161ba31a17f1023846f?sid=f35df531-4177-4550-a4c7-c212ca5e5ade)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,11 +179,11 @@ You can deploy this project using:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Adarsh Pathak**
+👤 **Harsh Sonkar**
 
-- GitHub: [@PowerLevel9000](https://github.com/githubhandle)
-- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002?t=AIuSN7mTxk5a_MWpLolEjA&s=09)
-- LinkedIn: [@Adarsh Pathak](https://www.linkedin.com/in/adarsh-pathak-56a831256/)
+- GitHub: [@hq969](https://github.com/hq969)
+- Twitter: [@HarshSonkar24](https://twitter.com/HarshSonkar24)
+- LinkedIn: [@Harsh Sonkar](https://www.linkedin.com/in/harsh-sonkar-232573250)
 
 <!-- FUTURE FEATURES -->
 
@@ -205,28 +203,9 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PowerLevel9000/pokemon-dashboard-plus/issues).
+Feel free to check the [issues page](https://github.com/hq969/pokemon-dasboard-plus/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
-
-If you like my Project give it a Star ✨🌟
-or
-<br />
-
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/adi8090808E)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [GNU GENERAL PUBLIC LICENSE](https://github.com/PowerLevel9000/pokemon-dashboard-plus/blob/dev/LICENSE) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>) </p>
