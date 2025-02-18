@@ -1,0 +1,335 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+  background-image: url('./assets/images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 110vh;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.favorite-title {
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Steelfish Rg', 'helvetica neue', 
+                  helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+.poke-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.logo-warper {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid #deff39;
+  width: 40px;
+  height: 40px;
+  background-color: antiquewhite;
+}
+
+.logo-warper img {
+  width: 30px;
+  height: 30px;
+}
+
+.gif-pokemon {
+  height: 100px;
+  width: 100px;
+  background-color: var(bg-success);
+}
+
+.hero {
+  /* background: linear-gradient(99.8deg, rgb(92, 255, 51), rgb(244, 226, 26)); */
+  background-image: url('./assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  overflow: hidden;
+}
+
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.615);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.deck-img {
+  z-index: 1;
+}
+
+.hero h1 {
+  width: 40%;
+  font-size: 57px;
+  margin-bottom: 20px;
+  background-image: url("./assets/images/background.jpg");
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Steelfish Rg', 'helvetica neue', 
+                  helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  border: #bada55 2px solid;
+  box-shadow: inset 0 0 10px 0 rgba(0, 128, 0, 0.61);
+  border-radius: 16px;
+}
+
+.hero p {
+  font-size: 30px;
+  font-weight: 1000;
+  width: 50%;
+  margin-bottom: 40px;
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Steelfish Rg', 'helvetica neue', 
+                  helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  border: #61b4f3 2px solid;
+  box-shadow: inset 0 0 10px 0 rgba(0, 128, 0, 0.61);
+  padding: 30px 10px;
+  border-radius: 16px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #deff39;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #bada55;
+}
+
+.courser-pointer {
+  cursor: pointer;
+}
+
+.pokemon-container {
+  min-height: 90vh;
+}
+
+.home-container {
+  min-height: 80vh;
+  /* overflow: hidden; */
+}
+
+.search-section {
+  min-height: 50vh;
+}
+
+.search-section ul {
+  z-index: 2;
+  background-color: #f5f5f5c7 !important;
+}
+
+.search-section ul button {
+  background-color: rgba(20, 190, 20, 0.573);
+}
+
+.search-section ul button:hover {
+  background-color: #deff39;
+}
+
+.pokemon-card {
+  background-color: #f5f5f5ef;
+  overflow: hidden;
+}
+
+.badge-bg {
+  background-color: rgba(240, 248, 255, 0.752);
+}
+
+#filter::-webkit-scrollbar {
+  display: none;
+}
+
+#filter {
+  overflow-x: scroll;
+}
+
+#filter button {
+  margin-left: -10px;
+}
+
+.fa-arrow-left {
+  height: 100%;
+  background-color: rgba(0, 128, 0, 0.61);
+  cursor: pointer;
+  color: white;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 128, 0, 0.61);
+}
+
+.fa-arrow-right {
+  height: 100%;
+  background-color: rgba(0, 128, 0, 0.604);
+  cursor: pointer;
+  color: white;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 128, 0, 0.61);
+}
+
+.modal-body, .modal-content {
+  background-color: transparent !important;
+  border: none;
+}
+
+.fa-heart {
+  color: green;
+}
+
+
+.fa-heart:hover {
+  color: rgb(255, 0, 0);
+}
+
+.fa-heart:active {
+  color: hotpink;
+}
+
+.fav {
+  color: hotpink;
+}
+
+.statistics {
+  overflow: scroll;
+}
+
+.statistics .alert-success {
+  min-height: 400px;
+  min-width: 600px;
+  overflow-x: scroll;
+}
+
+.statistics::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-body img {
+  filter: drop-shadow(3px 3px 5px green) sepia(0) drop-shadow(-3px -3px 5px green);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: aquamarine;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #deff39;
+  border-radius: 10px;
+}
+
+.skeleton-pokemon .skeleton-header,
+.skeleton-pokemon .skeleton-img,
+.skeleton-pokemon .skeleton-title,
+.skeleton-pokemon .skeleton-types,
+.skeleton-pokemon .skeleton-button,
+.skeleton-pokemon .skeleton-heart {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-color: #f0f0f0;
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+@media only screen and (max-width : 768px){
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero h1 {
+    /* margin-top: 400px; */
+    width: 80%;
+  }
+  .hero p {
+    width: 80%;
+    display: none;
+  }
+  .hero button {
+    width: 80%;
+  }
+
+  .favorite-title {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .deck-img:nth-of-type(n+3) {
+    display: none;
+  }
+
+  .hero-container{
+    width: 100%;
+    height: 100vh;
+  }
+}
