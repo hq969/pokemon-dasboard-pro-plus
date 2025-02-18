@@ -101,16 +101,6 @@
 - **you can see short and full details of the pokemon**
 - **you can have modal of the each pokemon**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> This link will guide you to my project
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/73347f69-a6b9-4eeb-903e-9f13d98d3191/deploy-status)](https://pokedexplus.netlify.app/)
-<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
