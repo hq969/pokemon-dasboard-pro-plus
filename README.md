@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="./document/branding/harsh logo.jpg" alt="logo" width="140"  height="auto" />
+  
   <img src="./document/branding/pokeball.png" alt="logo" width="140"  height="auto" />
 
   <br/>
