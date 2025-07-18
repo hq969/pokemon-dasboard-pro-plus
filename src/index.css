@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f5f5f5;
-  background-image: url('./assets/images/background.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -25,10 +24,10 @@ a {
 }
 
 .favorite-title {
-  background-image: url("./assets/images/background.jpg");
-  background-repeat: repeat;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-top: 20px;
   font-size: 100px;
   text-align: center;
@@ -68,8 +67,7 @@ a {
 }
 
 .hero {
-  /* background: linear-gradient(99.8deg, rgb(92, 255, 51), rgb(244, 226, 26)); */
-  background-image: url('./assets/images/hero.jpg');
+  background: linear-gradient(99.8deg, rgb(92, 255, 51), rgb(244, 226, 26));
   background-size: cover;
   background-position: center;
   height: 95vh;
@@ -99,11 +97,10 @@ a {
   width: 40%;
   font-size: 57px;
   margin-bottom: 20px;
-  background-image: url("./assets/images/background.jpg");
-  background-size: 200px 200px;
-  background-repeat: repeat;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-family: 'Steelfish Rg', 'helvetica neue', 
                   helvetica, arial, sans-serif;
   font-weight: 800;
@@ -119,10 +116,10 @@ a {
   font-weight: 1000;
   width: 50%;
   margin-bottom: 40px;
-  background-image: url("./assets/images/background.jpg");
-  background-repeat: repeat;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-family: 'Steelfish Rg', 'helvetica neue', 
                   helvetica, arial, sans-serif;
   font-weight: 800;
