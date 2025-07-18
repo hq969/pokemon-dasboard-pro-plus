@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import dragon from '../assets/gifs/dragon.gif'
-import hello from '../assets/gifs/hello.gif'
-import meote from '../assets/gifs/meote.gif'
-import walking from '../assets/gifs/walking.gif'
+import dragon from '../assests/gifs/dragon.gif'
+import hello from '../assests/gifs/hello.gif'
+import meote from '../assests/gifs/meote.gif'
+import walking from '../assests/gifs/walking.gif'
 
 const Hero = () => {
     // Images to be displayed on the hero section as Deck
